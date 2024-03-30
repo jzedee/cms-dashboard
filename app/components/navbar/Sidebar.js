@@ -10,7 +10,7 @@ const Sidebar = () => {
     const legal = []
 
     return (
-        <div className='p-4 flex flex-col gap-4 w-[25vw] border h-screen m-2 rounded-lg justify-between ' >
+        <div className='sidebar p-4 flex flex-col gap-4 w-[25vw] border h-screen m-2 rounded-lg justify-between ' >
             <div>
 
 

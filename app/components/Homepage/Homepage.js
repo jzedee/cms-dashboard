@@ -6,7 +6,7 @@ import Footer from './Footer'
 
 const Homepage = () => {
     return (
-        <div className='w-[75vw] relative flex justify-between flex-col border h-screen m-2 rounded-lg'>
+        <div className='homepage w-[75vw] relative flex justify-between flex-col border h-screen m-2 rounded-lg'>
             <div className='flex flex-col'>
                 <Navbar />
                 <Items />

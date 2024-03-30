@@ -13,6 +13,31 @@
   font-size: 0.75rem;
  
 }
+@media screen and (max-width: 1024px)  {
+  *{
+    font-size: 0.7rem;
+   
+  }
+}
+@media screen and (max-width: 960px)  {
+  *{
+    font-size: 0.65rem;
+    
+   
+  }
+  .sidebar{
+    width: 30vw !important ;
+  }
+  .homepage{
+    width: 70vw !important;
+  }
+
+}
+@media screen and (max-width: 760px)  {
+  .subnavbar{
+    flex-direction: column;
+  }
+}
 ::-webkit-scrollbar{
   display: none;
 }

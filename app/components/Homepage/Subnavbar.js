@@ -28,7 +28,7 @@ const Subnavbar = () => {
 
     return (
         <div className='border-t p-3'>
-            <div className='flex items-center justify-between'>
+            <div className='subnavbar flex items-center justify-between'>
                 <div className='flex gap-4'>
                     <Dropdown
                         options={Brands}
