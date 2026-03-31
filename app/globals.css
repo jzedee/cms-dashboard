@@ -38,8 +38,26 @@
     flex-direction: column;
   }
 }
-::-webkit-scrollbar{
-  display: none;
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }
 .Dropdown-control {
  
@@ -50,11 +68,13 @@
 .grid{
   grid-template-columns: repeat(6, minmax(0, 1fr)) 30px;
   text-align: center;
+  border-bottom: 1px solid #e5e7eb;
 }
 .grid>div{
   border-right: 1px solid #e5e7eb;
   border-bottom: 1px solid #e5e7eb;
   padding: 10px;
+  box-sizing: border-box;
 }
 /* @media (prefers-color-scheme: dark) {
   :root {
